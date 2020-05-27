@@ -2,7 +2,7 @@
 ## Match-maker app
 
 ## Overview
-* A 10 question survey with a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
+* A compatibility-based application consists of 10 question survey with a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
 * File htmlRoutes.js includes the following routes:
     * A GET Route to display the survey page.
     * A default route that displays the home page.
@@ -16,7 +16,5 @@
 ## Technologies Used
 
 ## NPM Packages Used
-
 * Express
-
 * Path
