@@ -1,4 +1,4 @@
-.jumbotron {
+.jumbotron, .survey{
     color: rgb(221, 18, 52);
     font-family: 'Lily Script One', cursive;
     background-color: rgb(245, 196, 204);
@@ -8,10 +8,21 @@
 body{
     background-image: url(../assets/image/heart.jpg);
     background-repeat: no-repeat;
-    /* max-width: 100%;
-    background-size: auto; */
 }
 
 .btn {
     color: rgb(221, 18, 62);
+    background-color: pink;
+}
+
+.survey{
+    color: rgb(221, 18, 52);
+    font-family: 'Lily Script One', cursive;
+    background-color: rgb(245, 196, 204);
+    background-image: url(../assets/image/fresh-snow.png);
+    background-repeat: repeat ;
+}
+
+.link{
+    color: rgb(221, 18, 52);
 }
