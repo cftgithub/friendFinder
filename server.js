@@ -4,6 +4,9 @@ var express = require("express");
 var app = express();
 var PORT = process.env.PORT || 3000;
 
+// Serve static content for the app from the "public" directory in the application directory.
+app.use(express.static("app/public"));
+
 // Sets Express for data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
